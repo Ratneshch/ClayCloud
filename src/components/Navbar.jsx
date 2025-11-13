@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { RiTranslateAi2 } from "react-icons/ri";
+import { FaAngleDown } from "react-icons/fa";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showLangMenu, setShowLangMenu] = useState(false);
@@ -17,39 +18,38 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
         {/* ✅ Logo */}
         <h1 className="text-xl md:text-3xl font-bold text-white tracking-wide">
-          HrWebsite
+        ClayCloud
         </h1>
 
         {/* ✅ Desktop Menu */}
-        <ul className="hidden md:flex space-x-10 font-medium text-white">
-          {[
-            t("navbar.product"),
-            t("navbar.customer"),
-            t("navbar.resources"),
-            t("navbar.pricing"),
-            t("navbar.about"),
-          ].map((item, index) => (
-            <li key={index}>
-              <a
-                href="#"
-                className="hover:text-[#FAA307] transition-colors duration-300"
-              >
-                {item}
-              </a>
-            </li>
-          ))}
-        </ul>
+       <ul className="hidden md:flex space-x-10 font-medium text-white">
+  {[
+    { label: t("navbar.product"), icon: false },
+    { label: t("navbar.service"), icon: true }, // ⬅️ Add icon here
+    { label: t("navbar.about"), icon: false },
+    { label: t("navbar.industries"), icon: false },
+  ].map((item, index) => (
+    <li key={index}>
+      <a
+        href="#"
+        className="hover:text-[#FAA307] transition-colors duration-300 flex items-center gap-1"
+      >
+        {item.label}
+        {item.icon && <FaAngleDown className="text-sm" />} {/* Icon only for service */}
+      </a>
+    </li>
+  ))}
+</ul>
+
 
         {/* ✅ Desktop Buttons + Language Selector */}
         <div className="hidden md:flex items-center space-x-4 relative">
           {/* Login */}
-          <button className="px-4 py-2 border border-white/50 text-white rounded-lg hover:bg-white hover:text-black transition-all duration-300">
-            {t("navbar.login")}
-          </button>
+        
 
           {/* Get Demo */}
           <button className="px-4 py-2 rounded-lg bg-[#FAA307] text-white hover:bg-yellow-600 transition-all duration-300">
-            {t("navbar.demo")}
+            {t("navbar.enquiry")}
           </button>
 
           {/* 🌐 Language Dropdown */}
