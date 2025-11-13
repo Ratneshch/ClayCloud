@@ -7,7 +7,7 @@
     "enquiry": "अभी पूछें",
     "login": "लॉगिन",
     "demo": "डेमो प्राप्त करें",
-    "signup": "फ्री में साइन अप करें"
+    "signup": "मुफ़्त में साइन अप करें"
   },
 
   "hero": {
@@ -21,28 +21,48 @@
   "trusted_brand": [
     {
       "brand_heading": "अग्रणी ब्रांडों का विश्वास",
-      "brand_para": "हज़ारों कंपनियों से जुड़ें जो अपने मिशन-क्रिटिकल इंफ्रास्ट्रक्चर के लिए ClayCloud पर भरोसा करती हैं।"
+      "brand_para": "उन हज़ारों कंपनियों में शामिल हों जो अपने मिशन-क्रिटिकल इंफ्रास्ट्रक्चर के लिए ClayCloud पर भरोसा करती हैं।"
     }
   ],
 
   "footer": {
     "brand": {
-      "name": "HrWebsite",
-      "description": "संगठनों को बुद्धिमान HR समाधानों के साथ सशक्त बनाना जो विकास, सहभागिता और सफलता को आगे बढ़ाते हैं।"
+      "name": "ClayCloud",
+      "description": "आधुनिक व्यवसायों के लिए बुद्धिमान क्लाउड इन्फ्रास्ट्रक्चर। एआई-संचालित ऑटोमेशन के साथ आत्मविश्वास से स्केल करें।"
     },
 
     "socialIcons": [
-      { "image": "facebook.png", "url": "https://facebook.com" },
-      { "image": "x.png", "url": "https://twitter.com" },
-      { "image": "in.png", "url": "https://linkedin.com" },
-      { "image": "insta.png", "url": "https://instagram.com" },
-      { "image": "chat.png", "url": "https://whatsapp.com" }
+      {
+        "name": "फेसबुक",
+        "url": "https://facebook.com",
+        "iconKey": "facebook"
+      },
+      {
+        "name": "एक्स (ट्विटर)",
+        "url": "https://twitter.com",
+        "iconKey": "twitter"
+      },
+      {
+        "name": "लिंक्डइन",
+        "url": "https://linkedin.com",
+        "iconKey": "linkedin"
+      },
+      {
+        "name": "इंस्टाग्राम",
+        "url": "https://instagram.com",
+        "iconKey": "instagram"
+      },
+      {
+        "name": "व्हाट्सएप",
+        "url": "https://whatsapp.com",
+        "iconKey": "whatsapp"
+      }
     ],
 
     "links": [
       {
         "title": "उत्पाद",
-        "items": ["विशेषताएँ", "एकीकरण", "सुरक्षा", "अपडेट्स"]
+        "items": ["विशेषताएँ", "एकीकरण", "सुरक्षा", "अपडेट"]
       },
       {
         "title": "कंपनी",
@@ -55,7 +75,7 @@
     ],
 
     "bottom": {
-      "copyright": "© 2024 HrWebsite. सर्वाधिकार सुरक्षित।",
+      "copyright": "© 2024 HrWebsite. सर्वाधिकार सुरक्षित.",
       "policies": ["गोपनीयता नीति", "सेवा की शर्तें", "कुकी नीति"]
     }
   }
