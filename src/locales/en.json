@@ -4,15 +4,79 @@
     "service": "Services",
     "about": "About Us",
     "industries": "Industries",
-    "enquiry": "Enquire Now"
+    "enquiry": "Enquire Now",
+    "login": "Login",
+    "demo": "Get a Demo",
+    "signup": "Sign Up for Free"
   },
-"hero": {
-  "heading1": "Managed Web Hosting",
-  "heading2": "built with Intelligence",
-  "subheading1": "Simple, scalable managed hosting with AI-powered server ",
-  "subheading2": " diagnostics and automated troubleshooting for agencies,",
-   "subheading3": " developers, and businesses."
-}
- 
 
+  "hero": {
+    "heading1": "Managed Web Hosting",
+    "heading2": "built with Intelligence",
+    "subheading1": "Simple, scalable managed hosting with AI-powered server",
+    "subheading2": "diagnostics and automated troubleshooting for agencies,",
+    "subheading3": "developers, and businesses."
+  },
+
+  "trusted_brand": [
+    {
+      "brand_heading": "Trusted by Leading Brands",
+      "brand_para": "Join thousands of companies that rely on ClayCloud for their mission critical infrastructure."
+    }
+  ],
+
+  "footer": {
+    "brand": {
+      "name": "ClayCloud",
+      "description": "Intelligent cloud infrastructure for modern businesses. Scale with confidence using AI-powered automation."
+    },
+
+    "socialIcons": [
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com",
+        "iconKey": "facebook"
+      },
+      {
+        "name": "X (Twitter)",
+        "url": "https://twitter.com",
+        "iconKey": "twitter"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com",
+        "iconKey": "linkedin"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com",
+        "iconKey": "instagram"
+      },
+      {
+        "name": "WhatsApp",
+        "url": "https://whatsapp.com",
+        "iconKey": "whatsapp"
+      }
+    ],
+
+    "links": [
+      {
+        "title": "Product",
+        "items": ["Features", "Integrations", "Security", "Updates"]
+      },
+      {
+        "title": "Company",
+        "items": ["About Us", "Pricing", "Careers", "Contact"]
+      },
+      {
+        "title": "Resources",
+        "items": ["Blog", "Documentation", "Support", "Community"]
+      }
+    ],
+
+    "bottom": {
+      "copyright": "© 2024 HrWebsite. All rights reserved.",
+      "policies": ["Privacy Policy", "Terms of Service", "Cookie Policy"]
+    }
+  }
 }
