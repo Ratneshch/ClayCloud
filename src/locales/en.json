@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "product": "Product",
+    "customer": "Customer",
+    "resources": "Resources",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "login": "Login",
+    "demo": "Get a Demo",
+    "signup": "Sign Up for Free"
+  }}
