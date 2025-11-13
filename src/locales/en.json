@@ -8,4 +8,64 @@
     "login": "Login",
     "demo": "Get a Demo",
     "signup": "Sign Up for Free"
-  }}
+  },
+
+  "trusted_brand": [
+    {
+      "brand_heading": "Trusted by Leading Brands",
+      "brand_para": "Join thousands of companies that rely on ClayCloud for their mission critical infrastructure."
+    }
+  ],
+  "footer": {
+  "brand": {
+    "name": "ClayCloud",
+    "description": "Intelligent cloud infrastructure for modern businesses. Scale with confidence using AI-powered automation."
+  },
+  "socialIcons": [
+  {
+    "name": "Facebook",
+    "url": "https://facebook.com",
+    "iconKey": "facebook"
+  },
+  {
+    "name": "X (Twitter)",
+    "url": "https://twitter.com",
+    "iconKey": "twitter"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://linkedin.com",
+    "iconKey": "linkedin"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com",
+    "iconKey": "instagram"
+  },
+  {
+    "name": "WhatsApp",
+    "url": "https://whatsapp.com",
+    "iconKey": "whatsapp"
+  }
+],
+  "links": [
+    {
+      "title": "Product",
+      "items": ["Features", "Integrations", "Security", "Updates"]
+    },
+    {
+      "title": "Company",
+      "items": ["About Us", "Pricing", "Careers", "Contact"]
+    },
+    {
+      "title": "Resources",
+      "items": ["Blog", "Documentation", "Support", "Community"]
+    }
+  ],
+  "bottom": {
+    "copyright": "© 2024 HrWebsite. All rights reserved.",
+    "policies": ["Privacy Policy", "Terms of Service", "Cookie Policy"]
+  }
+}
+
+}
