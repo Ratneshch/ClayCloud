@@ -2,9 +2,17 @@
   "navbar": {
     "product": "Product",
     "service": "Services",
-  
     "about": "About Us",
     "industries": "Industries",
-   
     "enquiry": "Enquire Now"
-  }}
+  },
+"hero": {
+  "heading1": "Managed Web Hosting",
+  "heading2": "built with Intelligence",
+  "subheading1": "Simple, scalable managed hosting with AI-powered server ",
+  "subheading2": " diagnostics and automated troubleshooting for agencies,",
+   "subheading3": " developers, and businesses."
+}
+ 
+
+}

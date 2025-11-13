@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-20 bg-black/40 backdrop-blur-sm border-b border-white/10">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 flex justify-between items-center">
         {/* ✅ Logo */}
         <h1 className="text-xl md:text-3xl font-bold text-white tracking-wide">
         ClayCloud
