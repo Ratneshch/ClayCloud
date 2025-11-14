@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
   <section
-  className="relative min-h-[80vh] flex items-center justify-center font-[Poppins] overflow-hidden"
+  className="relative min-h-[100vh] flex items-center justify-center font-[Poppins] overflow-hidden"
   aria-label="Hero Section"
 >
   {/* ✅ Background Video */}
