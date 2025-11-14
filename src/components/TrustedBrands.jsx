@@ -8,7 +8,7 @@ const TrustedBrands = () => {
 
   return (
     <div className="flex items-center justify-center sm:w-full">
-      <div className="max-w-6xl w-full py-10 sm:py-18">
+      <div className="max-w-6xl w-full py-8 mb-3 sm:py-10">
         
         {/* Heading Section */}
         <div className="text-center font-poppins mb-6 sm:mb-14">
