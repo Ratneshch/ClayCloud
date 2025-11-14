@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import bgVideo from "../assets/v2.mp4";
+import bgVideo from "../assets/v1.mp4";
 
 
 const Hero = () => {
@@ -53,7 +53,7 @@ const Hero = () => {
     </p>
 
     <div className="mt-6 flex flex-col md:flex-row justify-center gap-3">
-      <button className="bg-[#FAA307] text-white px-6 py-3 rounded-md text-md font-semibold hover:bg-yellow-600 transition">
+      <button className="bg-[#FAA307] text-white px-6 py-3 rounded-md   text-md font-semibold hover:bg-yellow-600 transition">
         {t("navbar.enquiry")}
       </button>
     </div>
