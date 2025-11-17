@@ -24,7 +24,43 @@
       "brand_para": "हज़ारों कंपनियाँ ClayCloud पर अपने मिशन-क्रिटिकल इन्फ्रास्ट्रक्चर के लिए भरोसा करती हैं।"
     }
   ],
+  "testimonials_head": [
+    {
+      "heading": "हमारे क्लाइंट क्या कहते हैं",
+      "paragraph": "दुनियाभर के हजारों बिज़नेस का भरोसा"
+    }
+  ],
 
+  "testimonials": [
+    {
+      "image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
+      "name": "Briar Martin",
+      "handle": "@neilstellar",
+      "quote": "Radiant ने हमारे सभी कॉम्पिटिटर्स को पीछे छोड़ना बेहद आसान बना दिया।",
+      "date": "20 अप्रैल, 2025"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
+      "name": "Avery Johnson",
+      "handle": "@averywrites",
+      "quote": "Radiant ने हमारे सभी कॉम्पिटिटर्स को पीछे छोड़ना बेहद आसान बना दिया।",
+      "date": "10 मई, 2025"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=200&auto=format&fit=crop&q=60",
+      "name": "Jordan Lee",
+      "handle": "@jordantalks",
+      "quote": "Radiant ने हमारे सभी कॉम्पिटिटर्स को पीछे छोड़ना बेहद आसान बना दिया।",
+      "date": "5 जून, 2025"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60",
+      "name": "Avery Johnson",
+      "handle": "@averywrites",
+      "quote": "Radiant ने हमारे सभी कॉम्पिटिटर्स को पीछे छोड़ना बेहद आसान बना दिया।",
+      "date": "10 मई, 2025"
+    }
+  ],
   "footer": {
     "brand": {
       "name": "ClayCloud",
