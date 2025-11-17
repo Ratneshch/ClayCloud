@@ -78,5 +78,56 @@
       "copyright": "© 2024 HrWebsite. All rights reserved.",
       "policies": ["Privacy Policy", "Terms of Service", "Cookie Policy"]
     }
-  }
+  },
+
+  "ourBlog": "Our Blog",
+  "subtitle": "We use an agile approach to test assumptions and connect with the needs of your audience early and often.",
+  "viewAll": "View All",
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Future of Cloud Infrastructure",
+      "tag": "Article",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+      "description": "Explore how AI and machine learning are revolutionizing cloud management and infrastructure automation.",
+      "author": "John Smith",
+      "date": "Aug 15, 2021",
+      "readTime": "16 min read",
+      "authorImage": "https://i.pravatar.cc/40?img=3"
+    },
+    {
+      "id": 2,
+      "title": "Kubernetes Best Practices",
+      "tag": "Guide",
+      "image": "https://i.pinimg.com/1200x/97/dc/76/97dc76f78aadddc25ea19d11ac39e864.jpg",
+      "description": "Learn essential strategies for deploying and managing containerized applications at scale.",
+      "author": "Maria Garcia",
+      "date": "Aug 12, 2021",
+      "readTime": "12 min read",
+      "authorImage": "https://i.pravatar.cc/40?img=5"
+    },
+    {
+      "id": 3,
+      "title": "Migrating to the Cloud",
+      "tag": "Tutorial",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+      "description": "A comprehensive guide to planning and executing a successful cloud migration strategy.",
+      "author": "David Lee",
+      "date": "Aug 10, 2021",
+      "readTime": "20 min read",
+      "authorImage": "https://i.pravatar.cc/40?img=7"
+    },
+    {
+      "id": 4,
+      "title": "Earth from Space",
+      "tag": "Tutorial",
+      "image": "https://media.istockphoto.com/id/627281636/photo/earth-night-space.jpg?s=612x612&w=0&k=20&c=nJyJIXDX2InYCCcP3rIxFEhGmJ_x8cEmFK90CeD9Y0s=",
+      "description": "A comprehensive guide to planning and executing a successful cloud migration strategy.",
+      "author": "David Lee",
+      "date": "Aug 10, 2021",
+      "readTime": "20 min read",
+      "authorImage": "https://i.pravatar.cc/40?img=7"
+    }
+  ]
 }
