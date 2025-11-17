@@ -33,14 +33,14 @@ const BlogSection = () => {
         {/* Desktop Arrows */}
         <button
           onClick={scrollLeft}
-          className="hidden md:flex absolute left-[-60px] top-1/2 -translate-y-1/2 bg-[#FAA307] text-white p-3 rounded-full shadow-lg hover:bg-yellow-500 transition-all z-10"
+          className="hidden md:flex absolute left-[-35px] top-1/2 -translate-y-1/2 bg-[#FAA307] text-white p-3 rounded-full shadow-lg hover:bg-yellow-500 transition-all z-10"
         >
           <ArrowLeft size={22} />
         </button>
 
         <button
           onClick={scrollRight}
-          className="hidden md:flex absolute right-[-60px] top-1/2 -translate-y-1/2 bg-[#FAA307] text-white p-3 rounded-full shadow-lg hover:bg-yellow-500 transition-all z-10"
+          className="hidden md:flex absolute right-[-35px] top-1/2 -translate-y-1/2 bg-[#FAA307] text-white p-3 rounded-full shadow-lg hover:bg-yellow-500 transition-all z-10"
         >
           <ArrowRight size={22} />
         </button>
@@ -49,7 +49,7 @@ const BlogSection = () => {
         <div
           ref={scrollRef}
           className="
-            flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-6 px-1 h-[536px] pt-5
+            flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-6 px-1 h-[520px] pt-5
             [scrollbar-width:none]
             [-ms-overflow-style:none]
             [&::-webkit-scrollbar]:hidden
